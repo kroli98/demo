@@ -16,5 +16,30 @@ public class User {
     @Column(nullable = false)
     private String password;
 
-    // Getters and setters
+    // Getter and setter for 'id' field
+    public long getId() {
+        return id;
+    }
+
+    public void setId(long id) {
+        this.id = id;
+    }
+
+    // Getter and setter for 'email' field
+    public String getEmail() {
+        return email;
+    }
+
+    public void setEmail(String email) {
+        this.email = email;
+    }
+
+    // Getter and setter for 'password' field
+    public String getPassword() {
+        return password;
+    }
+
+    public void setPassword(String password) {
+        this.password = password;
+    }
 }
